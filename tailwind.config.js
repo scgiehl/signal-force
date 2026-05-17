@@ -76,6 +76,7 @@ export default {
         scan: 'scan 4s ease-in-out infinite',
         ticker: 'ticker 60s linear infinite',
         caret: 'caret 1s steps(1) infinite',
+        stack: 'stack 3.6s cubic-bezier(0.22, 1, 0.36, 1) infinite',
       },
       keyframes: {
         sweep: {
@@ -97,6 +98,12 @@ export default {
         caret: {
           '0%, 50%': { opacity: '1' },
           '51%, 100%': { opacity: '0' },
+        },
+        stack: {
+          '0%': { transform: 'translateY(28px) scaleX(0.92)', opacity: '0' },
+          '18%': { transform: 'translateY(0) scaleX(1)', opacity: '1' },
+          '82%': { transform: 'translateY(0) scaleX(1)', opacity: '1' },
+          '100%': { transform: 'translateY(-10px) scaleX(0.96)', opacity: '0' },
         },
       },
     },

@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import { ArrowUpRight } from 'lucide-react';
 import Logo from './Logo';
 import { brand, nav } from '../lib/content';
-import { todayCode } from '../lib/utils';
 
 export default function Footer() {
   return (
@@ -40,24 +39,20 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="lg:col-span-3">
-            <div className="label">Transmission</div>
-            <div className="mt-4 space-y-2 font-mono text-xs text-bone-300">
-              <div className="flex justify-between border-b border-white/[0.06] py-1.5">
+          <div className="flex flex-col lg:col-span-3">
+            <div className="label">Launching</div>
+            <div className="mt-4 flex flex-1 flex-col font-mono text-xs text-bone-300">
+              <div className="flex flex-1 items-center justify-between border-b border-white/[0.06]">
                 <span className="text-bone-500">DATE</span>
-                <span>{todayCode()}</span>
+                <span className="text-signal-400">Q4 2026</span>
               </div>
-              <div className="flex justify-between border-b border-white/[0.06] py-1.5">
+              <div className="flex flex-1 items-center justify-between border-b border-white/[0.06]">
                 <span className="text-bone-500">PHASE</span>
                 <span>EARLY ACCESS</span>
               </div>
-              <div className="flex justify-between border-b border-white/[0.06] py-1.5">
+              <div className="flex flex-1 items-center justify-between">
                 <span className="text-bone-500">BUILT BY</span>
-                <span>OPERATOR</span>
-              </div>
-              <div className="flex justify-between py-1.5">
-                <span className="text-bone-500">CLASSIFY</span>
-                <span className="text-signal-400">UNCLASSIFIED</span>
+                <span>SEAN GIEHL</span>
               </div>
             </div>
           </div>

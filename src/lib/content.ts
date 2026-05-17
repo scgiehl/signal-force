@@ -16,7 +16,7 @@ export const brand = {
   thesisQuestion:
     'Given everything moving in the federal market right now, what should I do next week, and why?',
   status: 'EARLY ACCESS · BUILD PHASE',
-  classification: 'OPERATOR · BUILT · CLEARED',
+  classification: 'OPERATOR-BUILT · INTELLIGENCE DRIVEN',
   contactEmail: 'scgiehl@gmail.com',
 };
 
@@ -263,23 +263,14 @@ export const useCases = [
   },
 ];
 
-// Anti-positioning — what Signal Force is NOT
-export const antiPositioning = [
-  {
-    them: 'Data platforms',
-    examples: 'GovTribe, GovWin, USAspending, SAM.gov',
-    they: 'tell you what is happening.',
-  },
-  {
-    them: 'News and analysis',
-    examples: 'Bloomberg Government, Washington Technology',
-    they: 'tell you what has been said about what is happening.',
-  },
-  {
-    them: 'Capture and proposal tools',
-    examples: 'GovDash, Procurement Sciences, Privia',
-    they: 'help you execute on what you have already decided to chase.',
-  },
+// Positioning — the six source categories Signal Force synthesizes across
+export const positioningSources = [
+  { label: 'Market Data', detail: 'Federal data shows market movement.' },
+  { label: 'News + Analysis', detail: 'Explains timing and narrative.' },
+  { label: 'Capture Tools', detail: 'Support pursuit execution.' },
+  { label: 'Relationship Intelligence', detail: 'Shows who matters.' },
+  { label: 'Money + Incumbents', detail: 'Reveals contract history.' },
+  { label: 'Technology + Mission', detail: 'Shows where demand is forming.' },
 ];
 
 // Founder — verbatim from Phrasing/Content_to_use.rtf

@@ -114,7 +114,7 @@ export default function Hero() {
               <div className="flex items-start gap-4">
                 <span className="mt-1 inline-block h-10 w-px bg-signal-500/60" />
                 <div>
-                  <div className="label mb-2 text-signal-400/80">The Question That Drives Every Page</div>
+                  <div className="label mb-2 text-signal-400/80">The question that drives the report</div>
                   <blockquote className="font-display text-lg leading-snug text-bone-100 md:text-xl">
                     “{brand.thesisQuestion}”
                   </blockquote>
@@ -181,7 +181,7 @@ function SignalPanel() {
       <div className="flex items-center justify-between border-b border-white/[0.06] pb-3">
         <div className="flex items-center gap-2 font-mono text-sm uppercase tracking-widest2 text-bone-400">
           <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-signal-400" />
-          Signal Console
+          Signal Report
         </div>
         <div className="flex gap-1">
           <span className="h-1.5 w-1.5 rounded-full bg-bone-500/60" />
@@ -221,7 +221,7 @@ function FeedRow({ label, value, tone }: { label: string; value: string; tone?: 
     <div className="flex items-start gap-3">
       <span className={`mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full ${dotColor}`} />
       <div className="min-w-0 flex-1">
-        <div className="text-[9px] uppercase tracking-widest2 text-bone-500">{label}</div>
+        <div className="text-[10px] uppercase tracking-widest2 text-bone-500">{label}</div>
         <div className="truncate text-bone-100">{value}</div>
       </div>
     </div>
@@ -231,7 +231,7 @@ function FeedRow({ label, value, tone }: { label: string; value: string; tone?: 
 function Stat({ label, value }: { label: string; value: string }) {
   return (
     <div className="rounded border border-white/[0.06] bg-ink-900/60 px-3 py-2.5">
-      <div className="text-[9px] uppercase tracking-widest2 text-bone-500">{label}</div>
+      <div className="text-[10px] uppercase tracking-widest2 text-bone-500">{label}</div>
       <div className="mt-0.5 font-display text-base text-bone-50">{value}</div>
     </div>
   );
