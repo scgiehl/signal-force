@@ -1,0 +1,11 @@
+node_modules
+dist
+dist-ssr
+.vite
+.env
+.env.local
+.DS_Store
+*.log
+_phrasing.txt
+_strip_rtf.py
+.claude/
