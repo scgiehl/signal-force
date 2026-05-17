@@ -20,7 +20,7 @@ export default function UseCases() {
         {useCases.map((u, i) => (
           <Reveal key={u.code} delay={i * 0.06}>
             <article className="panel relative h-full overflow-hidden p-6 transition-colors hover:border-white/15">
-              <div className="flex items-center justify-between">
+              <div className="flex flex-col items-start gap-2">
                 <span className="tag-signal">{u.code}</span>
                 <span className="font-mono text-sm uppercase tracking-widest2 text-bone-500">
                   → {u.output}
