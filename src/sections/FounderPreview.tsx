@@ -21,7 +21,7 @@ export default function FounderPreview() {
               <img
                 src="/assets/founder.png"
                 alt="Sean Giehl, Founder of Signal Force"
-                className="block w-full object-cover"
+                className="block aspect-[4/5] w-full object-cover object-center lg:aspect-auto"
                 loading="lazy"
               />
 
