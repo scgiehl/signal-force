@@ -31,7 +31,7 @@ export default function Founder() {
                 ))}
 
                 <img
-                  src="/assets/founder.png"
+                  src={`${import.meta.env.BASE_URL}assets/founder.png`}
                   alt="Sean Giehl, Founder of Signal Force"
                   className="block aspect-[4/5] w-full object-cover object-center lg:aspect-auto"
                 />
