@@ -44,7 +44,7 @@ export default function AntiPositioning() {
 
       <Reveal delay={0.25} className="mt-10">
         <p className="max-w-3xl text-pretty text-base leading-relaxed text-bone-300 md:text-lg">
-          <span className="font-semibold text-signal-400">Signal Force</span> connects those pieces into <span className="font-semibold text-bone-100">one</span> decision-ready read.
+          <span className="font-semibold text-signal-400">Signal Force</span> connects those pieces into <span className="font-semibold text-bone-100">one</span> decision-ready report.
         </p>
       </Reveal>
 
