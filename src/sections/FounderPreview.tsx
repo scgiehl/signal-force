@@ -34,7 +34,7 @@ export default function FounderPreview() {
                   <div className="font-display text-base text-bone-50">{founder.name}</div>
                 </div>
                 <div className="font-mono text-sm uppercase tracking-widest2 text-signal-400">
-                  ID · 2651
+                  MOS · 2651
                 </div>
               </div>
             </div>

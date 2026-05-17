@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import { motion, useReducedMotion } from 'framer-motion';
 import { ArrowRight, ChevronRight } from 'lucide-react';
 import { brand } from '../lib/content';
-import { todayCode } from '../lib/utils';
 
 const ROTATING = [
   'see what is next',
@@ -14,7 +13,7 @@ export default function Hero() {
   const reduce = useReducedMotion();
 
   return (
-    <section className="relative isolate flex min-h-[88vh] items-center overflow-hidden pt-24">
+    <section className="relative isolate flex min-h-[88vh] items-center overflow-hidden pt-24 pb-24 lg:pb-0">
       {/* faint radar sweep behind hero */}
       <div
         aria-hidden="true"
@@ -54,7 +53,7 @@ export default function Hero() {
                   <span className="absolute inset-0 animate-ping rounded-full bg-signal-400 opacity-60" />
                   <span className="relative inline-flex h-2 w-2 rounded-full bg-signal-400" />
                 </span>
-                Transmission · {todayCode()}
+                Launching Q4 2026
               </span>
               <span className="h-3 w-px bg-white/15" />
               <span className="text-bone-300">{brand.status}</span>
