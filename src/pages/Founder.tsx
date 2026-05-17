@@ -69,7 +69,7 @@ export default function Founder() {
                 <Row label="ROLE" value={founder.role} />
                 <Row label="DOMAIN" value="GovCon · IC · National Defense" />
                 <Row label="EXPERIENCE" value="18 YRS" />
-                <Row label="DISCIPLINE" value="SIGINT · BD · Growth" last />
+                <Row label="DISCIPLINE" value="SIGINT · BD · Growth · Systems Engineering" last />
               </div>
             </div>
           </Reveal>
