@@ -44,7 +44,7 @@ export default function IntelligenceEngine() {
             <Cpu size={22} strokeWidth={1.5} />
           </div>
           <div className="mt-4 font-display text-lg leading-tight text-bone-50">
-            Signal Force AI Intelligence Engine
+            Signal Force AI Engine
           </div>
           <div className="mt-2 font-mono text-[10px] uppercase tracking-widest2 text-bone-400">
             Collect · Structure · Correlate · Forecast · Recommend
@@ -262,7 +262,7 @@ function EngineDiagram() {
             fontWeight="700"
             fill="#f4f6fa"
           >
-            AI Intelligence Engine
+            AI Engine
           </text>
           <text
             x={engineX}
