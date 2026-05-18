@@ -11,6 +11,8 @@ import Capabilities from './pages/Capabilities';
 import Methodology from './pages/Methodology';
 import Founder from './pages/Founder';
 import Access from './pages/Access';
+import Holding from './pages/Holding';
+import { HOLDING_MODE } from './lib/flags';
 
 function ScrollToTop({ pathname }: { pathname: string }) {
   useEffect(() => {
@@ -63,6 +65,10 @@ function AnimatedRoutes() {
 }
 
 export default function App() {
+  if (HOLDING_MODE) {
+    return <Holding />;
+  }
+
   return (
     <div className="relative min-h-screen overflow-hidden bg-ink-950">
       <Backdrop />
