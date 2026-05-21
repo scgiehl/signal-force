@@ -4,4 +4,4 @@
 // HOLDING_MODE = false → show the full site (Home, Capabilities, Methodology, Founder, Access)
 //
 // Flip this and push to flip the live site at signal-force.com.
-export const HOLDING_MODE = true;
+export const HOLDING_MODE = false;
